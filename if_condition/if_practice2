@@ -1,0 +1,25 @@
+read -p " Enter your X value here " X
+if [ $X -eq 0 ]
+then
+echo "SUNDAY"
+elif [ $X -eq 1 ]
+then
+echo "MONDAY"
+elif [ $X -eq 2 ]
+then
+echo "TUESDAY"
+elif [ $X -eq 3 ]
+then
+echo "WEDNESDAY"
+elif [ $X -eq 4 ]
+then
+echo "THURSDAY"
+elif [ $X -eq 5 ]
+then
+echo "FRIDAY"
+elif [ $X -eq 6 ]
+then
+echo "SATURDAY"
+else 
+echo "Invalid input"
+fi
